@@ -1,0 +1,6 @@
+{
+  "name": "Surayya & Thouseef Engagement Invitation",
+  "description": "Royal engagement invitation web application for Farhath Surayya & Thouseef with interactive envelope opening, ceremonial music, countdown timer, event details, and venue directions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
