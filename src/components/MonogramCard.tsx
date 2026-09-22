@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { eventData } from '../data/eventData';
 
 export const MonogramCard: React.FC = () => {
-  const brideInitial = eventData.couple?.monogram?.bride || 'A';
+  const brideInitial = eventData.couple?.monogram?.bride || 'H';
   const groomInitial = eventData.couple?.monogram?.groom || 'M';
 
   return (
@@ -37,7 +37,7 @@ export const MonogramCard: React.FC = () => {
                   transition={{ duration: 0.9, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
                   className="font-eb-garamond text-5xl sm:text-8xl md:text-[10rem] lg:text-[11.5rem] font-bold text-[#1D4E89] leading-none select-none tracking-tight drop-shadow-sm inline-block"
                 >
-                  A
+                  H
                 </motion.span>
                 <motion.span
                   initial={{ opacity: 0, scale: 0.55, filter: 'blur(6px)' }}
