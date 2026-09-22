@@ -13,8 +13,8 @@ export const ThankYouSection: React.FC<ThankYouSectionProps> = ({ isPlaying, set
 
   const handleShare = async () => {
     const shareData = {
-      title: `${eventData.couple.bride} and ${eventData.couple.groom} - Wedding Invitation`,
-      text: `You're invited to celebrate the wedding of ${eventData.couple.bride} and ${eventData.couple.groom} on ${eventData.dateTime.dateFormatted}.`,
+      title: `${eventData.couple.groom} and ${eventData.couple.bride} - Wedding Invitation`,
+      text: `You're invited to celebrate the wedding of ${eventData.couple.groom} and ${eventData.couple.bride} on ${eventData.dateTime.dateFormatted}.`,
       url: window.location.href,
     };
 

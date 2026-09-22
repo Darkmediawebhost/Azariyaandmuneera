@@ -52,9 +52,9 @@ export const CountdownSection: React.FC = () => {
 
   const handleAddToCalendar = () => {
     const gCalUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
-      `${eventData.couple.bride} and ${eventData.couple.groom} - Wedding`
+      `${eventData.couple.groom} and ${eventData.couple.bride} - Wedding`
     )}&dates=20270103T060000Z/20270103T100000Z&details=${encodeURIComponent(
-      `Joyfully celebrating the Nikah of ${eventData.couple.bride} and ${eventData.couple.groom}.\n\nVenue: ${eventData.couple.fullAddress}`
+      `Joyfully celebrating the Nikah of ${eventData.couple.groom} and ${eventData.couple.bride}.\n\nVenue: ${eventData.couple.fullAddress}`
     )}&location=${encodeURIComponent(eventData.couple.fullAddress)}`;
 
     setIsAddingCalendar(true);

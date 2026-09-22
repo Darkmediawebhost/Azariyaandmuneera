@@ -73,12 +73,12 @@ export const eventData: EventData = {
   couple: {
     bride: 'Muneera',
     groom: 'Abdul Hazariya',
-    brideShort: 'Surayya',
-    groomShort: 'Thouseef',
+    brideShort: 'Muneera',
+    groomShort: 'Abdul Hazariya',
     monogram: {
-      bride: 'S',
-      groom: 'T',
-      combined: 'S & T',
+      bride: 'M',
+      groom: 'A',
+      combined: 'M & A',
     },
     tagline: 'Two hearts, one blessed beginning.',
     romanticQuote: 'Our forever begins with Bismillah.',
